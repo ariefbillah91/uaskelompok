@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.uaskelompok.ujian.list_book"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+    <EditText
+        android:layout_width="900px"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/form_shape"
+        android:hint="Search for books..."
+        android:textSize="40px" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bukub1"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Responsif"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="80dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star5"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="80dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bukub1"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Design"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="610dp"
+        android:layout_marginLeft="80dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/star5"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="80dp"
+        />
+</RelativeLayout>
